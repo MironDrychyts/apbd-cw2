@@ -18,6 +18,6 @@ static double GetAverage(int[] numbers)
     return sum / numbers.Length;
 }
 
-//int[] numbs = new[] {1,2,3,4};
+int[] numbs = new[] {1,2,3,4};
 
 //double avg = GetAverage(numbs);
