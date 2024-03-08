@@ -20,4 +20,4 @@ static double GetAverage(int[] numbers)
 
 int[] numbs = new[] {1,2,3,4};
 
-//double avg = GetAverage(numbs);
+double avg = GetAverage(numbs);
