@@ -21,3 +21,25 @@ static double GetAverage(int[] numbers)
 int[] numbs = new[] {1,2,3,4};
 
 double avg = GetAverage(numbs);
+
+
+static double GetMax(int[] numbers)
+{
+    double n = 0;
+    
+    for (int i = 0; i < numbers[i]; i++)
+    {
+        if (n == 0)
+        {
+            n = numbers[i];
+        }
+        else if(numbers[i] > n)
+        {
+            n = numbers[i];
+        }
+        
+    }
+
+    return n;
+}
+
