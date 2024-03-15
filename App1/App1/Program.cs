@@ -29,11 +29,7 @@ static double GetMax(int[] numbers)
     
     for (int i = 0; i < numbers[i]; i++)
     {
-        if (n == 0)
-        {
-            n = numbers[i];
-        }
-        else if(numbers[i] > n)
+        if(numbers[i] > n)
         {
             n = numbers[i];
         }
